@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== SEO METADATA ========== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW MINIKIRULA HOTEL | Luxury Weddings, Banquets & Special Events</title>
+    <meta name="description" content="NEW MINIKIRULA HOTEL – The perfect destination for weddings, homecoming ceremonies, birthday parties, engagements, corporate events and special celebrations. Elegant banquet halls, delicious cuisine and professional event coordination.">
+    <meta name="keywords" content="wedding hotel, banquet hall, wedding packages, homecoming ceremony, birthday party venue, corporate events, NEW MINIKIRULA HOTEL">
+    <meta name="author" content="NEW MINIKIRULA HOTEL">
+    <meta name="theme-color" content="#14352B">
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="NEW MINIKIRULA HOTEL – Where Every Celebration Becomes an Unforgettable Memory">
+    <meta property="og:description" content="Luxury weddings, homecomings, birthday parties and corporate events in an elegant banquet setting.">
+    <meta property="og:type" content="website">
+
+    <!-- ========== GOOGLE FONTS ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- ========== FONT AWESOME ========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- ========== MAIN STYLESHEET ========== -->
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+    <!-- ================================================================
+         PRELOADER
+    ================================================================= -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <span class="preloader-logo">NMK</span>
+            <div class="preloader-bar"><span></span></div>
+        </div>
+    </div>
+
+    <!-- ================================================================
+         NAVIGATION BAR
+    ================================================================= -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="#home" class="logo" aria-label="NEW MINIKIRULA HOTEL home">
+                <i class="fa-solid fa-hotel logo-icon"></i>
+                <span class="logo-text">NEW <strong>MINIKIRULA</strong><small>HOTEL &amp; BANQUETS</small></span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#events" class="nav-link">Events</a></li>
+                    <li><a href="#packages" class="nav-link">Wedding Packages</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                    <li class="nav-cta-item"><a href="#booking" class="btn btn-gold btn-sm">Book Your Event</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Hamburger -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================================================================
+         HERO SECTION
+    ================================================================= -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1920&q=80"
+                 alt="Luxury wedding reception hall at NEW MINIKIRULA HOTEL" loading="eager">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <p class="hero-eyebrow reveal">Weddings &bull; Banquets &bull; Celebrations</p>
+            <h1 class="hero-title reveal">Celebrate Your Special Moments <span class="gold-script">With Us</span></h1>
+            <p class="hero-sub reveal"><strong>NEW MINIKIRULA HOTEL</strong> – Where Every Celebration Becomes an Unforgettable Memory.</p>
+            <div class="hero-btns reveal">
+                <a href="#events" class="btn btn-gold">Explore Our Services <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#booking" class="btn btn-outline">Book Your Event</a>
+            </div>
+            <!-- Scroll indicator -->
+            <a href="#about" class="scroll-down" aria-label="Scroll down">
+                <span class="mouse"><span class="wheel"></span></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         STATS / COUNTERS STRIP
+    ================================================================= -->
+    <section class="stats-strip">
+        <div class="container stats-grid">
+            <div class="stat-item reveal">
+                <i class="fa-solid fa-calendar-check stat-icon"></i>
+                <h3 class="counter" data-target="500">0</h3><span class="stat-plus">+</span>
+                <p>Events Hosted</p>
+            </div>
+            <div class="stat-item reveal">
+                <i class="fa-solid fa-utensils stat-icon"></i>
+                <h3 class="counter" data-target="100">0</h3><span class="stat-plus">+</span>
+                <p>Menu Selections</p>
+            </div>
+            <div class="stat-item reveal">
+                <i class="fa-solid fa-users stat-icon"></i>
+                <h3 class="counter" data-target="250">0</h3><span class="stat-plus">+</span>
+                <p>Guests Capacity</p>
+            </div>
+            <div class="stat-item reveal">
+                <i class="fa-solid fa-star stat-icon"></i>
+                <h3 class="counter" data-target="15">0</h3><span class="stat-plus">+</span>
+                <p>Years of Service</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         ABOUT US
+    ================================================================= -->
+    <section class="section about" id="about">
+        <div class="container about-grid">
+            <!-- Image composition -->
+            <div class="about-images reveal-left">
+                <img class="about-img-main" src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80" alt="Elegant hotel interior at NEW MINIKIRULA HOTEL" loading="lazy">
+                <img class="about-img-small" src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=600&q=80" alt="Beautifully decorated banquet table" loading="lazy">
+                <div class="about-badge">
+                    <span class="badge-number">15+</span>
+                    <span class="badge-text">Years of<br>Celebrations</span>
+                </div>
+            </div>
+
+            <!-- Text content -->
+            <div class="about-text reveal-right">
+                <p class="section-eyebrow">About Our Hotel</p>
+                <h2 class="section-title">A Legacy of <span class="text-gold">Elegant Celebrations</span></h2>
+                <p class="section-desc">
+                    NEW MINIKIRULA HOTEL is the perfect destination for weddings, homecoming celebrations,
+                    birthday parties, corporate functions, and unforgettable special occasions. We provide a
+                    beautiful atmosphere, exceptional hospitality, and professional service to make every
+                    celebration truly memorable.
+                </p>
+                <div class="about-features">
+                    <div class="feature"><i class="fa-solid fa-circle-check"></i> Spacious luxury banquet halls</div>
+                    <div class="feature"><i class="fa-solid fa-circle-check"></i> Custom themed decorations</div>
+                    <div class="feature"><i class="fa-solid fa-circle-check"></i> In-house culinary team</div>
+                    <div class="feature"><i class="fa-solid fa-circle-check"></i> Dedicated event coordinator</div>
+                </div>
+                <a href="#contact" class="btn btn-dark">Get In Touch <i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         EVENT SERVICES
+    ================================================================= -->
+    <section class="section events" id="events">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">What We Host</p>
+                <h2 class="section-title">Our <span class="text-gold">Event Services</span></h2>
+                <p class="section-desc center">From intimate gatherings to grand celebrations, our team crafts every detail to perfection.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- 1 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Wedding ceremony" loading="lazy">
+                        <span class="service-tag">Most Popular</span>
+                    </div>
+                    <div class="service-body">
+                        <h3>Wedding Ceremonies</h3>
+                        <p>Grand or intimate, traditional or modern — we create the wedding day you have always dreamed of.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 2 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80" alt="Homecoming celebration" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Homecoming Celebrations</h3>
+                        <p>Warm, welcoming and beautifully arranged receptions to celebrate the arrival of a new beginning.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 3 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=80" alt="Birthday party celebration" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Birthday Parties</h3>
+                        <p>Fun, stylish and memorable birthday celebrations with custom themes for all ages.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 4 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?auto=format&fit=crop&w=800&q=80" alt="Engagement ceremony" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Engagement Ceremonies</h3>
+                        <p>A romantic setting with elegant décor to celebrate the first step of your lifelong journey.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 5 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80" alt="Anniversary celebration" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Anniversary Celebrations</h3>
+                        <p>Cherish your milestones with a beautifully styled celebration of love and togetherness.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 6 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80" alt="Corporate event" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Corporate Events</h3>
+                        <p>Professional venues and flawless service for conferences, seminars and company functions.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 7 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80" alt="Family gathering" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Family Gatherings</h3>
+                        <p>Cozy and welcoming spaces for reunions, almsgivings and precious family moments.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- 8 -->
+                <article class="service-card reveal">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80" alt="Special event celebration" loading="lazy">
+                    </div>
+                    <div class="service-body">
+                        <h3>Other Special Events</h3>
+                        <p>Whatever the occasion, our team is ready to design a celebration that exceeds expectations.</p>
+                        <a href="#booking" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         WEDDING & EVENT PACKAGES
+    ================================================================= -->
+    <section class="section packages" id="packages">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Tailored For You</p>
+                <h2 class="section-title">Wedding &amp; Event <span class="text-gold">Packages</span></h2>
+                <p class="section-desc center">Prices below are <strong>sample estimates only</strong> — please contact us for confirmed pricing.</p>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Silver -->
+                <article class="package-card reveal">
+                    <div class="package-header silver">
+                        <h3>Silver Package</h3>
+                        <p class="package-for">Perfect for intimate gatherings</p>
+                    </div>
+                    <div class="package-price">
+                        <span class="price-note">Sample price from</span>
+                        <span class="price">LKR 150,000</span>
+                        <span class="price-note">per event*</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> Banquet hall arrangements</li>
+                        <li><i class="fa-solid fa-check"></i> Standard table &amp; chair setup</li>
+                        <li><i class="fa-solid fa-check"></i> Basic wedding stage decoration</li>
+                        <li><i class="fa-solid fa-check"></i> Buffet food options</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Premium sound &amp; lighting</li>
+                        <li class="disabled"><i class="fa-solid fa-xmark"></i> Dedicated event coordinator</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-outline-dark btn-block">Select Package</a>
+                </article>
+
+                <!-- Gold (featured) -->
+                <article class="package-card featured reveal">
+                    <span class="popular-badge">Most Popular</span>
+                    <div class="package-header gold">
+                        <h3>Gold Package</h3>
+                        <p class="package-for">Our signature celebration</p>
+                    </div>
+                    <div class="package-price">
+                        <span class="price-note">Sample price from</span>
+                        <span class="price">LKR 300,000</span>
+                        <span class="price-note">per event*</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> Elegant banquet hall arrangements</li>
+                        <li><i class="fa-solid fa-check"></i> Decorated tables &amp; chairs</li>
+                        <li><i class="fa-solid fa-check"></i> Themed wedding stage decoration</li>
+                        <li><i class="fa-solid fa-check"></i> Extended food &amp; beverage options</li>
+                        <li><i class="fa-solid fa-check"></i> Sound &amp; lighting facilities</li>
+                        <li><i class="fa-solid fa-check"></i> Event coordination included</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-gold btn-block">Select Package</a>
+                </article>
+
+                <!-- Platinum -->
+                <article class="package-card reveal">
+                    <div class="package-header platinum">
+                        <h3>Platinum Package</h3>
+                        <p class="package-for">The ultimate luxury experience</p>
+                    </div>
+                    <div class="package-price">
+                        <span class="price-note">Sample price from</span>
+                        <span class="price">LKR 550,000</span>
+                        <span class="price-note">per event*</span>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fa-solid fa-check"></i> Premium banquet hall arrangements</li>
+                        <li><i class="fa-solid fa-check"></i> Luxury table &amp; chair décor</li>
+                        <li><i class="fa-solid fa-check"></i> Custom luxury stage &amp; floral design</li>
+                        <li><i class="fa-solid fa-check"></i> Full premium catering menu</li>
+                        <li><i class="fa-solid fa-check"></i> Advanced sound, lighting &amp; LED</li>
+                        <li><i class="fa-solid fa-check"></i> Dedicated planner &amp; coordination</li>
+                    </ul>
+                    <a href="#booking" class="btn btn-outline-dark btn-block">Select Package</a>
+                </article>
+            </div>
+
+            <!-- Custom package banner -->
+            <div class="custom-package reveal">
+                <div>
+                    <h3>Customized Packages</h3>
+                    <p>Have a unique vision? We tailor every detail — décor, menu, entertainment and more — to match your dream event and budget.</p>
+                </div>
+                <a href="#booking" class="btn btn-gold">Request Custom Quote <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <p class="disclaimer reveal">*All prices shown are editable sample estimates for demonstration only and are <strong>not confirmed hotel prices</strong>. Please contact us for accurate, up-to-date quotations.</p>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         GALLERY (with lightbox)
+    ================================================================= -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Our Portfolio</p>
+                <h2 class="section-title">Photo <span class="text-gold">Gallery</span></h2>
+                <p class="section-desc center">A glimpse of the celebrations we have brought to life. Click any image to view.</p>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <a class="gallery-item reveal" href="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85" data-caption="Wedding Ceremony">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=75" alt="Wedding decorations" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Wedding Decorations</span></div>
+                </a>
+                <a class="gallery-item reveal" href="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=85" data-caption="Wedding Reception Hall">
+                    <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=700&q=75" alt="Wedding reception hall" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Reception Halls</span></div>
+                </a>
+                <a class="gallery-item reveal" href="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1600&q=85" data-caption="Homecoming Event">
+                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=75" alt="Homecoming event" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Homecoming Events</span></div>
+                </a>
+                <a class="gallery-item reveal" href="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=1600&q=85" data-caption="Birthday Celebration">
+                    <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=700&q=75" alt="Birthday celebration" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Birthday Celebrations</span></div>
+                </a>
+                <a class="gallery-item reveal" href="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1600&q=85" data-caption="Banquet Hall Interior">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=75" alt="Banquet hall interior" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Hall Interiors</span></div>
+                </a>
+                <a class="gallery-item reveal" href="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1600&q=85" data-caption="Food & Buffet">
+                    <img src="https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=700&q=75" alt="Food and buffet arrangements" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i><span>Food &amp; Buffet</span></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         WHY CHOOSE US
+    ================================================================= -->
+    <section class="section why-us">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow light">Our Promise</p>
+                <h2 class="section-title light">Why Choose <span class="text-gold">NEW MINIKIRULA?</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-bell-concierge"></i>
+                    <h3>Elegant Banquet Hall</h3>
+                    <p>A stunning, spacious hall designed to make every event feel grand.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h3>Professional Staff</h3>
+                    <p>Friendly, trained and attentive team at your service throughout.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-bowl-food"></i>
+                    <h3>Delicious Food</h3>
+                    <p>Exquisite menus prepared fresh by our experienced culinary team.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h3>Beautiful Decorations</h3>
+                    <p>Themed décor, floral artistry and lighting crafted to your style.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-tags"></i>
+                    <h3>Affordable Packages</h3>
+                    <p>Flexible packages designed to suit every budget without compromise.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Excellent Service</h3>
+                    <p>Personal attention and quick responses from enquiry to event day.</p>
+                </div>
+                <div class="why-card reveal">
+                    <i class="fa-solid fa-heart"></i>
+                    <h3>Memorable Celebrations</h3>
+                    <p>We turn your special moments into stories you will cherish forever.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         TESTIMONIALS
+    ================================================================= -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Happy Clients</p>
+                <h2 class="section-title">What Our <span class="text-gold">Guests Say</span></h2>
+                <p class="section-desc center">Sample testimonials shown for demonstration until real customer reviews are added.</p>
+            </div>
+
+            <div class="testimonial-grid">
+                <article class="testimonial-card reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review">"Our wedding at NEW MINIKIRULA HOTEL was absolutely magical. The hall looked breathtaking and the staff treated us like family. We couldn't have asked for more!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">S</div>
+                        <div><strong>Sample Review — S. Perera</strong><span>Wedding Ceremony</span></div>
+                    </div>
+                </article>
+                <article class="testimonial-card reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p class="review">"We hosted our daughter's homecoming here. Beautiful décor, delicious food and flawless coordination from start to finish. Highly recommended!"</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">F</div>
+                        <div><strong>Sample Review — F. Fernando</strong><span>Homecoming Celebration</span></div>
+                    </div>
+                </article>
+                <article class="testimonial-card reveal">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                    <p class="review">"Booked the banquet hall for our annual corporate dinner. Professional service, great AV facilities and an outstanding buffet. Our whole team was impressed."</p>
+                    <div class="reviewer">
+                        <div class="reviewer-avatar">K</div>
+                        <div><strong>Sample Review — K. Silva</strong><span>Corporate Event</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         BOOKING / RESERVATION
+    ================================================================= -->
+    <section class="section booking" id="booking">
+        <div class="container booking-grid">
+            <div class="booking-info reveal-left">
+                <p class="section-eyebrow">Reserve Your Date</p>
+                <h2 class="section-title">Book Your <span class="text-gold">Special Event</span></h2>
+                <p class="section-desc">Fill in the form and our events team will contact you shortly to discuss availability, packages and pricing for your celebration.</p>
+                <ul class="booking-perks">
+                    <li><i class="fa-solid fa-calendar-check"></i> Check date availability</li>
+                    <li><i class="fa-solid fa-file-signature"></i> Free event consultation</li>
+                    <li><i class="fa-solid fa-gift"></i> Custom package planning</li>
+                </ul>
+                <div class="booking-call">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div><span>Prefer to talk?</span><a href="tel:+94000000000">+94 00 000 0000</a></div>
+                </div>
+            </div>
+
+            <form class="booking-form reveal-right" id="bookingForm" novalidate>
+                <h3>Booking Request Form</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">Full Name <span class="req">*</span></label>
+                        <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span class="req">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="+94 XX XXX XXXX" required>
+                        <small class="error-msg"></small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address <span class="req">*</span></label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="eventType">Event Type <span class="req">*</span></label>
+                        <select id="eventType" name="eventType" required>
+                            <option value="">Select an event type</option>
+                            <option>Wedding Ceremony</option>
+                            <option>Homecoming Celebration</option>
+                            <option>Birthday Party</option>
+                            <option>Engagement Ceremony</option>
+                            <option>Anniversary Celebration</option>
+                            <option>Corporate Event</option>
+                            <option>Family Gathering</option>
+                            <option>Other Special Event</option>
+                        </select>
+                        <small class="error-msg"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="eventDate">Preferred Event Date <span class="req">*</span></label>
+                        <input type="date" id="eventDate" name="eventDate" required>
+                        <small class="error-msg"></small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests <span class="req">*</span></label>
+                    <input type="number" id="guests" name="guests" min="10" max="2000" placeholder="e.g. 150" required>
+                    <small class="error-msg"></small>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tell us about your event, theme ideas, package interest..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-gold btn-block">Submit Booking Request <i class="fa-solid fa-paper-plane"></i></button>
+                <p class="form-note"><i class="fa-solid fa-circle-info"></i> Submitting this request does <strong>not</strong> automatically confirm a reservation. Our team will contact you to confirm availability.</p>
+
+                <!-- Success message (hidden by default) -->
+                <div class="form-success" id="formSuccess" role="alert">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h4>Request Received!</h4>
+                    <p>Thank you! Your booking request has been submitted. Our events team will contact you within 24 hours to confirm details and availability.</p>
+                    <button type="button" class="btn btn-dark btn-sm" id="resetFormBtn">Make Another Request</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         CONTACT US
+    ================================================================= -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Get In Touch</p>
+                <h2 class="section-title">Contact <span class="text-gold">Us</span></h2>
+                <p class="section-desc center">We would love to hear about your upcoming celebration.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card reveal">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h3>NEW MINIKIRULA HOTEL</h3>
+                    <p>Your premier venue for weddings and events.</p>
+                </div>
+                <div class="contact-card reveal">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p><a href="tel:+94000000000">+94 00 000 0000</a><br><small>(placeholder — update with your number)</small></p>
+                </div>
+                <div class="contact-card reveal">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:info@newminikirulahotel.com">info@newminikirulahotel.com</a><br><small>(placeholder — update with your email)</small></p>
+                </div>
+                <div class="contact-card reveal">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Address</h3>
+                    <p>123 Main Road, Your City<br><small>(placeholder — update with your address)</small></p>
+                </div>
+            </div>
+
+            <div class="contact-actions reveal">
+                <a href="https://wa.me/94000000000" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+                <a href="#" target="_blank" rel="noopener" class="btn btn-facebook"><i class="fa-brands fa-facebook-f"></i> Visit Our Facebook</a>
+            </div>
+
+            <!-- Google Maps placeholder -->
+            <div class="map-placeholder reveal">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <h3>Find Us On The Map</h3>
+                <p>Google Maps embed placeholder — replace this box with your hotel's map embed code.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         FOOTER
+    ================================================================= -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col footer-brand">
+                <a href="#home" class="logo light">
+                    <i class="fa-solid fa-hotel logo-icon"></i>
+                    <span class="logo-text">NEW <strong>MINIKIRULA</strong><small>HOTEL &amp; BANQUETS</small></span>
+                </a>
+                <p>Premium venue for weddings, homecomings, birthdays, corporate events and every celebration worth remembering.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook" class="social"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://wa.me/94000000000" target="_blank" rel="noopener" aria-label="WhatsApp" class="social"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" aria-label="Instagram" class="social"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube" class="social"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="#gallery"><i class="fa-solid fa-chevron-right"></i> Gallery</a></li>
+                    <li><a href="#testimonials"><i class="fa-solid fa-chevron-right"></i> Testimonials</a></li>
+                    <li><a href="#booking"><i class="fa-solid fa-chevron-right"></i> Book Your Event</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Event Services</h4>
+                <ul>
+                    <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Wedding Ceremonies</a></li>
+                    <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Homecoming Celebrations</a></li>
+                    <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Birthday Parties</a></li>
+                    <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Engagement Ceremonies</a></li>
+                    <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Corporate Events</a></li>
+                    <li><a href="#events"><i class="fa-solid fa-chevron-right"></i> Family Gatherings</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-phone"></i> <a href="tel:+94000000000">+94 00 000 0000</a></li>
+                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@newminikirulahotel.com">info@newminikirulahotel.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Main Road, Your City</li>
+                    <li><i class="fa-solid fa-clock"></i> Open Daily: 8.00 AM – 10.00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> NEW MINIKIRULA HOTEL. All Rights Reserved. | Crafted with <i class="fa-solid fa-heart"></i> for your celebrations.</p>
+        </div>
+    </footer>
+
+    <!-- ================================================================
+         BACK TO TOP BUTTON
+    ================================================================= -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- ================================================================
+         LIGHTBOX MODAL
+    ================================================================= -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close preview"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left"></i></button>
+        <figure class="lightbox-content">
+            <img id="lightboxImg" src="" alt="Gallery image enlarged">
+            <figcaption id="lightboxCaption"></figcaption>
+        </figure>
+        <button class="lightbox-nav next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- ========== MAIN SCRIPT ========== -->
+    <script src="script.js"></script>
+</body>
+</html>
